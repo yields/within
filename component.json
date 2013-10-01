@@ -1,0 +1,23 @@
+{
+  "name": "within",
+  "repo": "yields/within",
+  "description": "`Date(now + 1e3) => \"in a second\"`",
+  "keywords": [
+    "in",
+    "ago",
+    "time",
+    "conversion"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": [],
+  "dependencies": {
+    "yields/approximate-time": "*",
+    "visionmedia/mocha": "*",
+    "component/assert": "*"
+  }
+}
